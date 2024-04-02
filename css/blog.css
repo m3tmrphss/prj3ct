@@ -8,6 +8,8 @@ body {
 }
 html  {
     font-size: 14px;
+    -webkit-text-size-adjust: 100%; /* Предотвращает автоматическое увеличение шрифта при повороте экрана */ 
+    -ms-text-size-adjust: 100%
 }
 .blog-container__author-and-date > div:nth-of-type(4){  
     display: flex;
